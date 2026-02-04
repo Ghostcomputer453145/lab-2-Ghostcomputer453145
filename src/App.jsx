@@ -1,5 +1,6 @@
 import './App.css';
 import { useState } from 'react';
+import samosa from './samosa.png';
 
 const App = () => {
   const [count, setCount] = useState(0);
@@ -33,7 +34,7 @@ const App = () => {
         <h2>Count: {count}</h2>
         <img 
         className="samosa" 
-        src="samosa.png"
+        src={samosa}
         onClick={updateCount}
         />
       </div>
