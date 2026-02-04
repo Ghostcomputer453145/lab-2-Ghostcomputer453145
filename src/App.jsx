@@ -8,6 +8,16 @@ const App = () => {
 
   return (
     <div className="App">
+      <div className="header">
+        <h1>Samosa Selector</h1>
+        <h2>Count: {count}</h2>
+        <img 
+        className="samosa" 
+        src="samosa.png"
+        onClick={updateCount}
+        />
+      </div>
+
       <div className="container">
         <div className="upgrade">
           <h3>Double Stuffed 👯‍♀️</h3>
@@ -27,16 +37,6 @@ const App = () => {
           <button>1000 samosas</button>
       </div>
     </div>
-      
-      <div className="header">
-        <h1>Samosa Selector</h1>
-        <h2>Count: {count}</h2>
-        <img 
-        className="samosa" 
-        src="samosa.png"
-        onClick={updateCount}
-        />
-      </div>
 
     </div>
   )
