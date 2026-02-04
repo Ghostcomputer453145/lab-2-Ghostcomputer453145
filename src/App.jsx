@@ -32,6 +32,8 @@ const App = () => {
       <div className="header">
         <h1>Samosa Selector</h1>
         <h2>Count: {count}</h2>
+        <p><strong>Name:</strong> Yumin Jang</p>
+        <p><strong>Z Number:</strong> Z23655899</p>
         <img 
         className="samosa" 
         src={samosa}
