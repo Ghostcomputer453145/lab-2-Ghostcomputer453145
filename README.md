@@ -1,4 +1,43 @@
-# React + Vite
+# WEB102 Lab 2 – *Samosa Selector*
+
+Submitted by: **Yumin Jang**  
+Z Number: **Z23655899**
+
+**Samosa Selector** is a React web app that allows users to click a samosa to increase their count and purchase upgrades that multiply how many samosas are earned per click.
+
+Time spent: **3-5** hours spent in total
+
+## Required Features
+
+The following **required** functionality is completed:
+
+* [X] A large samosa that the user can click to harvest one samosa at a time
+* [X] A counter displaying the number of samosas the user currently has 
+* [X] Three upgrades that increase the effectiveness of the user’s cursor at certain point thresholds
+
+
+## Stretch Features
+
+The following **stretch** functionality is implemented:
+
+* [x] When purchasing an upgrade, the user loses samosas from their total count
+* [x] Decrease the scale of the large samosa when the user clicks the samosa to create a pulse effect
+
+## Video Walkthrough
+
+Here's a walkthrough of the fully completed Timetabled calendar:
+
+<img src="samosa-selector.gif" title="Video Walkthrough" alt="Video Walkthrough" />
+
+GIF created with **Snipping Tool**
+
+## What I've done and learned
+
+In this lab, I built a React app that tracks a samosa count and a multiplier using useState. I connected clicks on the samosa image and the upgrade buttons to event handlers that update the state and automatically refresh the UI. I added logic so upgrades only work when enough samosas are available and subtract the correct amount after purchase. I also learned how to properly import images from the src folder and used CSS Flexbox and hover/click effects to center the layout and improve the user experience.
+
+## License
+
+    Copyright 2026 Yumin Jang
 
 This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
